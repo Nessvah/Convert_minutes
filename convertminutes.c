@@ -21,8 +21,11 @@ int main(int argc, char *argv[])
 
     minutesInYears = (60 * 24) * 365;
 
+    //Formula to convert minutes into years
+    years = minutes / minutesInYears; 
 
-    printf("Number of minutes in a year are: %.2f\n", minutesInYears);
+
+    printf("Number of years is: %.2f\n", years);
 
     return 0;
 }
